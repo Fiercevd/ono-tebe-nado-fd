@@ -14,17 +14,20 @@
   margin-left: 50px;
 }
 
-.header__links-list-item_no-bullit,
+.header__links-list-item-active,
 .header__links-list-item {
   font-size: 18px;
   text-underline-offset: 4px;
   list-style: circle;
 }
 
-.header__links-list-item_no-bullit {
-  list-style: none;
+.header__links-list-item-active {
+  list-style-type: none;
 }
 
+.header__links-list-item_no-bullit {
+  text-decoration: none;
+}
 .header__logo {
   display: block;
   width: 148px;
