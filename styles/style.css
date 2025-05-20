@@ -162,34 +162,34 @@
   text-decoration: underline;
 }
 
-.lots__card-list-item-film,
-.lots__card-list-item-book,
-.lots__card-list-item-painting {
+.card_container {
   list-style: none;
   z-index: 2;
   background-position: center;
   background-size: cover;
 }
 
-.lots a {
-  text-decoration: none;
-}
 
-.lots__card-list-item-film {
+
+.card_type_film {
   background-image: url("../images/card-lot-01.jpg");
 }
 
-.lots__card-list-item-book {
+.card_type_book {
   background-image: url("../images/card-lot-02.jpg");
 }
 
-.lots__card-list-item-painting {
+.card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
 }
 
 .article {
   font-size: 20px;
   text-transform: none;
+}
+
+.lots a {
+  text-decoration: none;
 }
 
 .lots a.lots__look-more-link {
